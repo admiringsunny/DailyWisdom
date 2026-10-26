@@ -68,7 +68,7 @@ fun QuoteScreen(
                         Column(modifier = Modifier.padding(16.dp)) {
                             Text(
                                 text = quote.quote,
-                                style = MaterialTheme.typography.titleMedium
+                                style = MaterialTheme.typography.titleLarge
                             )
                             Text(
                                 text = if (quote.author.isNotEmpty()) "- by ${quote.author}" else "",
